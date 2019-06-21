@@ -12,10 +12,10 @@ This table describes support type, supported patch version and end of support da
 
 |  Version  |  Release Date | Support Level | Supported Patch Version | End of Support |
 | -- | -- | -- | -- | -- |
-| [.NET Core 2.2](https://blogs.msdn.microsoft.com/dotnet/) | December 04, 2018 | Current | [2.2.0](https://www.microsoft.com/net/download/dotnet-core/runtime-2.2.0) | |
-| [.NET Core 2.1](https://blogs.msdn.microsoft.com/dotnet/2018/05/30/announcing-net-core-2-1) | May 30, 2018 | LTS | [2.1.6](https://www.microsoft.com/net/download/dotnet-core/runtime-2.1.6) | At least three years from LTS declaration (August 21, 2018). |
-| [.NET Core 1.1](https://blogs.msdn.microsoft.com/dotnet/2016/11/16/announcing-net-core-1-1/) | November 16, 2016 | Maintenance | [1.1.10](https://www.microsoft.com/net/download/dotnet-core/runtime-1.1.10) | June 27, 2019 |
-| [.NET Core 1.0](https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/) | June 27, 2016 | Maintenance | [1.0.13](https://www.microsoft.com/net/download/dotnet-core/runtime-1.0.13) | June 27, 2019 |
+| [.NET Core 2.2](https://aka.ms/netcore22announce) | December 04, 2018 | Current | [2.2.5](https://www.microsoft.com/net/download/dotnet-core/runtime-2.2.5) | |
+| [.NET Core 2.1](https://blogs.msdn.microsoft.com/dotnet/2018/05/30/announcing-net-core-2-1) | May 30, 2018 | LTS | [2.1.11](https://www.microsoft.com/net/download/dotnet-core/runtime-2.1.11) | At least three years from LTS declaration (August 21, 2018). |
+| [.NET Core 1.1](https://blogs.msdn.microsoft.com/dotnet/2016/11/16/announcing-net-core-1-1/) | November 16, 2016 | Maintenance | [1.1.13](https://www.microsoft.com/net/download/dotnet-core/runtime-1.1.13) | June 27, 2019 |
+| [.NET Core 1.0](https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/) | June 27, 2016 | Maintenance | [1.0.16](https://www.microsoft.com/net/download/dotnet-core/runtime-1.0.16) | June 27, 2019 |
 
 ## Release Types
 
@@ -44,6 +44,10 @@ Note: .NET Core 1.x was released under an earlier definition of LTS. See: [.NET 
 Current releases are supported for the following timeframe:
 
 * Three months after a subsequent **Current** or **LTS** release
+
+### Maintenance releases
+
+Maintenance releases are in the last stage of the lifecycle . During Maintenance, a release will still receive security updates. The length of Maintenance time is determined by the type of release it was previously; as described in the above section.
 
 ### End of support
 

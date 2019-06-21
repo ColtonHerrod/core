@@ -1,58 +1,76 @@
 {
     "releases-index": [
         {
-            "channel-version": "3.0",
-            "latest-release": "3.0.0-preview1",
-            "latest-release-date":"2018-12-04",
-            "product": ".NET Core",
-            "support-phase": "preview",
-            "eol-date": "",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/3.0/releases.json"
+          "channel-version": "3.0",
+          "latest-release": "3.0.0-preview6",
+          "latest-release-date": "2019-06-12",
+          "security": false,
+          "latest-runtime": "3.0.0-preview6-27804-01",
+          "latest-sdk": "3.0.100-preview6-012264",
+          "product": ".NET Core",
+          "support-phase": "preview",
+          "eol-date": null,
+          "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/3.0/releases.json"
         },
         {
             "channel-version": "2.2",
-            "latest-release": "2.2.101",
-            "latest-release-date":"2018-12-04",
+            "latest-release": "2.2.300",
+            "latest-release-date": "2019-05-21",
+            "security": false,
+            "latest-runtime": "2.2.5",
+            "latest-sdk": "2.2.300",
             "product": ".NET Core",
             "support-phase": "current",
-            "eol-date": "",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/2.2/releases.json"
+            "eol-date": null,
+            "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/2.2/releases.json"
         },
         {
             "channel-version": "2.1",
-            "latest-release": "2.1.6",
-            "latest-release-date":"2018-11-13",
+            "latest-release": "2.1.700",
+            "latest-release-date": "2019-05-21",
+            "security": false,
+            "latest-runtime": "2.1.11",
+            "latest-sdk": "2.1.700",
             "product": ".NET Core",
             "support-phase": "lts",
-            "eol-date": "",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/2.1/releases.json"
+            "eol-date": null,
+            "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/2.1/releases.json"
         },
         {
             "channel-version": "2.0",
             "latest-release": "2.0.9",
-            "latest-release-date":"2018-05-21",
+            "latest-release-date":"2018-07-10",
+            "security": true,
+            "latest-runtime": "2.0.9",
+            "latest-sdk": "2.1.202",
             "product": ".NET Core",
             "support-phase": "eol",
             "eol-date": "2018-10-01",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/2.0/releases.json"
+            "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/2.0/releases.json"
         },
         {
             "channel-version": "1.1",
-            "latest-release": "1.1.10",
-            "latest-release-date":"2018-10-09",
+            "latest-release": "1.1.13",
+            "latest-release-date": "2019-05-14",
+            "security": true,
+            "latest-runtime": "1.1.13",
+            "latest-sdk": "1.1.14",
             "product": ".NET Core",
             "support-phase": "maintenance",
             "eol-date": "2019-06-27",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/1.1/releases.json"
+            "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/1.1/releases.json"
         },
         {
             "channel-version": "1.0",
-            "latest-release": "1.0.13",
-            "latest-release-date":"2018-10-09",
+            "latest-release": "1.0.16",
+            "latest-release-date": "2019-05-14",
+            "security": true,
+            "latest-runtime": "1.0.16",
+            "latest-sdk": "1.1.14",
             "product": ".NET Core",
             "support-phase": "maintenance",
             "eol-date": "2019-06-27",
-            "releases.json": "https://github.com/dotnet/core/blob/master/release-notes/1.0/releases.json"
+            "releases.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/1.0/releases.json"
         }
     ]
 }
